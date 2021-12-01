@@ -5,6 +5,9 @@
 -    I'll share my projects to see my progress.
 -    2021 Goals: Reaching the level where I can contribute to Open Source Projects
 
+My Resume:
+[Akif Can Sönmez - Resume.docx](https://github.com/AkifCanSonmez/AkifCanSonmez/files/7634924/Akif.Can.Sonmez.-.Resume.docx)
+
 
 My Recent Certification :
 
