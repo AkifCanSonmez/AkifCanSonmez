@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning Statistic and Python libraries for data science.
 - 💞️ I’m looking to collaborate with other content creators.
 -    I'll share my projects to see my progress.
--    2022 Goals: Reaching the level where I can contribute to Open Source Projects
+-    2022 Goals: Find internships in data science 
 
 My Resume:
 [Akif Can Sönmez - Resume.docx](https://github.com/AkifCanSonmez/AkifCanSonmez/files/8248318/Akif.Can.Sonmez.-.Resume.docx)
