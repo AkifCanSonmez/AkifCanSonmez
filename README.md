@@ -5,10 +5,6 @@
 -    I'll share my projects to see my progress.
 -    2022 Goals: Find internships in data science 
 
-My Resume:
-[Akif Can Sönmez - Resume.docx](https://github.com/AkifCanSonmez/AkifCanSonmez/files/8248318/Akif.Can.Sonmez.-.Resume.docx)
-
-
 My Recent Certification :
 
 ![IBM-Data-Science](https://user-images.githubusercontent.com/78687240/144255437-aa7a7b93-9a8b-4e9e-8784-c7233974c694.png)
