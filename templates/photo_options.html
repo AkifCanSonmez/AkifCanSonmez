@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css"
+    href = "{{url_for('static', path='/css/base.css') }}">
+    <meta charset="UTF-8">
+    <title>Health Tracker</title>
+  </head>
+  <body class="po_body">
+    <div class="btn-option">
+      <form action="/foods/" method="post">
+        <input type="hidden" name="btn_name" value="cameraBtn">
+        <button id="camera_button" type="submit">Open Camera</button>
+      </form>
+      <form action="/foods/" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="btn_name" value="selectBtn">
+        <input type="file" accept="image/*" name="food_image">
+        <button id="Select-button">Select Image</button>
+       </form>
+      <form action="/foods" method="post">
+        <input type="hidden" name="btn_name" value="typeBtn">
+        <button id="type-button">Type Food Names</button>
+      </form>
+  </div>
+  </body>
+</html>

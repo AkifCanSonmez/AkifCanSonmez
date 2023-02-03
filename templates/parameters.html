@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <style>
+      .btn {
+        background-color: greenyellow;
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+        margin-left: 100px;
+        font-weight: bold;
+      }
+      .input-group {
+        display: flex;
+        align-items: center;
+      }
+      .input-group input[type="number"] {
+        width: 100px;
+        margin-left: 10px;
+        padding: 5px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        text-align: center;
+        font-weight: bold;
+      }
+      body {
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    {% for object in objects %}
+      <div class="input-group">
+        <button class="btn">{{ object }}</button>
+        <input type="number" value="0" min="0">
+      </div>
+    {% endfor %}
+
+    <button id="submit-button" class="btn">Submit</button>
+
+    <script>
+      const submitButton = document.getElementById("submit-button");
+      submitButton.addEventListener("click", function() {
+        const inputGroups = document.querySelectorAll(".input-group");
+        const inputValues = [];
+        inputGroups.forEach(inputGroup => {
+          const btn = inputGroup.querySelector(".btn");
+          const input = inputGroup.querySelector("input[type='number']");
+          inputValues.push({ name: btn.innerText, value: input.value });
+        });
+
+        fetch("/pstrsql", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            input_values: inputValues
+          })
+        })
+        .then(response => {
+          if (response.status === 200) {
+            window.location.href = "/pstrsql/display";
+          } else {
+            console.error("Error response", response);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

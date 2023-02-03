@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="/static/js/main.js"> </script>
+  </head>
+  <body onload="takePicture()">
+    <video id="video" width="640" height="480"></video>
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <button onclick="captureImage()">Capture Image</button>
+    <button id="submitButton" style="display:none" onclick="submitForm()">Submit</button>
+  </body>
+</html>
