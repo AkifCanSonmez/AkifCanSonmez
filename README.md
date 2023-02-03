@@ -3,7 +3,6 @@
 - 🌱 I’m currently learning Statistic, Python libraries for Deep Learning (Keras, Tensorflow, Pytorch) for AI.
 - 💞️ I’m looking to collaborate with other content creators.
 -    I'll share my projects to see my progress.
--    2022 Goals: Find internships in data science 
 
 My Recent Certification :
 
