@@ -11,5 +11,4 @@ The project's GitHub repository contains the source code for web app, as well as
 
 If you're interested in Type 1 Diabetes management or app development, this project may be a useful resource to check out!
 
-You can try the program via EC2 Public IP below
-34.207.194.103
+You can try the program via EC2 Public IP: http://34.207.194.103/
