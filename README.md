@@ -1,14 +1,15 @@
 - 👋 Hi, I'm Akif Can Sönmez, I'm a computer engineering student at Iztech in Turkey.
 - 👀 I’m interested in AI&Data Science
 
-## My Recent Project:
-Type 1 Diabetes Monitoring: 
+## My Recent Project
+### Type 1 Diabetes Monitoring 
 https://github.com/AkifCanSonmez/Type-1-Diabet-Monitoring
 
-## My Recent Certification :
+The Type-1-Diabet-Monitoring project is a system for monitoring and managing Type 1 Diabetes. The project includes a mobile app for recording blood glucose levels, insulin doses, and meals, as well as a web app for visualizing the data and providing insights to the user.
 
-![IBM-Data-Science](https://user-images.githubusercontent.com/78687240/144255437-aa7a7b93-9a8b-4e9e-8784-c7233974c694.png)
+The project's GitHub repository contains the source code for web app, as well as documentation and instructions for running the system. The repository also includes a demo video showcasing the system in action.
 
-CONNECT WİTH ME:
+If you're interested in Type 1 Diabetes management or app development, this project may be a useful resource to check out!
 
-https://www.linkedin.com/in/akif-can-s%C3%B6nmez-7317321b7/
+You can try the program via EC2 Public IP below
+34.207.194.103
