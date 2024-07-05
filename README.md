@@ -1,5 +1,4 @@
 - 👋 Hi, I'm Akif Can Sönmez, I'm a computer engineering student at Iztech in Turkey.
-- 👀 I’m interested in AI&Data Science
 
 ## My Recent Project
 ### Type 1 Diabetes Monitoring 
